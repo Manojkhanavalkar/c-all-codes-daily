@@ -3,9 +3,9 @@
 using namespace std;
 int main()
 {
-    float a=10, N;
+    int a=10, N;
     N=sizeof(a);
-    
-    cout<<"sizeof float is "<<N;
+    //here in my machine the size of both the int and float is same 4 bytes
+    cout<<"size of variable is "<<N;
 
 }
